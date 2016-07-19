@@ -21,7 +21,7 @@ module.exports = {
     // This plugin activates hot loading
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'public/javascripts/index.html',
+            template: 'public/index.html',
             inject: 'body',
             filename: 'index.html'
         }),
